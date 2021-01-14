@@ -1,0 +1,1 @@
+geth --http --http.port 8545 --datadir data --networkid 173 --nat extip:192.168.15.4 --netrestrict 192.168.15.0/24 --allow-insecure-unlock --unlock 0x640Bdbcf5d1A5362955Cf85c1A7FdF7f78116Eea --password pw --http.corsdomain "https://remix.ethereum.org,http://remix.ethereum.org" --http.api admin,eth,miner,net,txpool,personal,web3 --miner.gasprice 0 --mine
